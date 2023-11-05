@@ -21,7 +21,7 @@ from utils import validate as validate_web_app_data
 
 load_dotenv()
 bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", None)
-BOT_CHANNEL_ID = -1001926993887
+BOT_CHANNEL_ID = -1002105255563
 
 WEB_APP_URL = 'https://strongly-powerful-muskox.ngrok-free.app/tg-webapp/'
 WEB_APP_URL = 'https://durger-king-tg-bot-v2.onrender.com/tg-webapp/'
