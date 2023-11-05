@@ -56,7 +56,7 @@ async def web_app_data(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 def main() -> None:
     """Start the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("6688591851:AAHkFge5qZ2YsWumROWyq9IQAoZbt9J9q50").build()
+    application = Application.builder().token("6530540781:AAG4QZh7ktzWKRs9_kjUiaIks2PJR2H9lLE").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.StatusUpdate.WEB_APP_DATA, web_app_data))
