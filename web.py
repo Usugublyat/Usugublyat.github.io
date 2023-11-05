@@ -16,7 +16,7 @@ from utils import validate as validate_web_app_data
 app = FastAPI()
 app.mount("/tg-webapp", StaticFiles(directory="tg-webapp", html=True), name="tg-webapp-static")
 
-BOT_CHANNEL_ID = -1001926993887
+BOT_CHANNEL_ID = -1002105255563
 
 
 @app.get("/")
